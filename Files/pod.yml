@@ -1,0 +1,9 @@
+Version : v1
+kind: pod
+metadata:
+  name: nginxpod
+spec:
+  container:
+  - name: test 
+    image: nginx
+    
