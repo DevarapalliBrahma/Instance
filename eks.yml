@@ -4,10 +4,9 @@ kind: ClusterConfig
 metadata:
   name: expense
   region: us-east-1
-availabilityZones: ["us-east-1a", "us-east-1b", "us-east-1c"]
 
 managedNodeGroups:
   - name: expense
-    instanceTypes: ["t3.micro", "t2.micro","t2.small"]
-    desiredCapacity: 3
+    instanceTypes: ["t3.micro", "t2.micro",]
+    desiredCapacity: 2
     spot: true
